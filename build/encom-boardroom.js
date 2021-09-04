@@ -80938,7 +80938,25 @@ function executeCommand(){
         writeResponse("Apa Khabar!!!");
         writePrompt();
 		window.location.href = "https://guaniupiang.github.io/";
-    } else {
+    }else if(command.indexOf("xiannv") == 0){
+        writeResponse("Yes! That's right! It's you!");
+        writePrompt();
+	}else if(command.indexOf("xnbrsyj") == 0){
+        writeResponse("Trump card one star player!");
+		writeResponse("Duck king! KD no more than 2.0!");
+		writeResponse("Won the champion, second, third");
+		writeResponse("and the last one of the sports meet!");
+        writePrompt();
+	}else if(command.indexOf("dani") == 0){
+        writeResponse("Go east west! Woof! Woof! Woof!");
+        writePrompt();
+	}else if(command.indexOf("wmm") == 0){
+        writeResponse("Cat north south!");
+        writePrompt();
+	}else if(command.indexOf("xylbrswmm") == 0){
+        writeResponse("Wish you success! Good luck!");
+        writePrompt();
+	}else {
         writeResponse("command not found");
         writePrompt();
     }
